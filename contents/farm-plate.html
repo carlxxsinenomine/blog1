@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="canonical" href="https://codepen.io/nodws/pen/aWgMMQ">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/styles/nav-bar.css">
+    <link rel="stylesheet" href="contents.css">
+    <link rel="stylesheet" href="/static/styles/blog.css">
+
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css">
+
+    <style>
+            .header:before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            -webkit-backface-visibility: hidden;
+            -webkit-transform: translateZ(0);
+            backface-visibility: hidden;
+            background: #1B2030 url("../static/images/farmplate.png") 0% 0 no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            animation: pan-image 120s linear infinite alternate;
+            z-index: -2;
+        }
+    </style>
+    <script
+        src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+    <script> window.console = window.console || function (t) { }; </script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="logo navbar-brand" href="about.html">Blog Posts</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas"
+                    data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                    data-fa-i2svg="">
+                    <path fill="currentColor"
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z">
+                    </path>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../blog.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="header">
+        <div class="info">
+            <h1 class="title-home">Farm Plate</h1>
+        </div>
+    </div>
+    <article class="mb-4">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <p class="indented">If you think Daraga, Albay is only about historic ruins and the iconic Mayon Volcano, think again. This vibrant town is not only rich in heritage—with churches, colonial structures, and landscapes that echo centuries of Filipino history—but also brimming with modern attractions that reflect its growth, creativity, and resilience. And nestled quietly in its scenic hillsides lies one of the most delightful surprises in Bicol: FarmPlate.</p>
+                    <h2 class="section-heading">The Happiest Place in Bicol</h2>
+                    <p class="indented">Yes, that’s what many call it—and for good reason. FarmPlate is a farm-to-table ecotourism destination just a few minutes from Daraga town proper. With panoramic views of Mayon, a peaceful countryside vibe, and a charming cowboy-themed atmosphere, this place offers a refreshing blend of nature, leisure, and modern flair.</p>
+                    <p class="indented">It’s not just a farm—it’s an experience. Whether you're traveling with family, a group of friends, or your special someone, FarmPlate promises moments that feel both nostalgic and new.</p>
+                    <h2 class="section-heading"> Lights, Camera, Relaxation!</h2>
+                    <p class="indented">You may have seen glimpses of FarmPlate in the film *I Love Lizzy*. It’s no surprise the filmmakers chose this location: it’s cinematic in every sense. Think rolling hills, rustic barns, glowing tunnels of light, and quiet corners perfect for reflection or photography. And did we mention it’s home to the smallest chapel in the Philippines? Perched on a hill, this tiny church offers spiritual serenity and one of the best views in town.</p>
+                    <h2 class="section-heading">Things you can do at Farm Plate</h2>
+                    <blockquote class="blockquote">
+                        Whether day or night, FarmPlate has something for everyone.
+                        Explore the “love tunnel” lit with glowing hearts.
+                        Get up close with farm animals like sheep and cows.
+                        Enjoy bonfire nights with live acoustic music.
+                        Let kids play freely in well-maintained playgrounds.
+                        Join ATV rides, biking, horse grazing, or chill with a carabao ride.
+                        Relax in tents, hammocks, or cottages.
+                        Savor local food and Bicolano delicacies.
+                        Capture Instagram-worthy shots against lush scenery.
+                        y evening, the farm transforms into a glowing spectacle of lights, perfect for romantic dates or peaceful reflection under the stars.
+                    </blockquote>
+                    <a href="#!"><img class="img-fluid" src="../static/images/farmplate.png" alt="..."></a>
+                    <span class="caption"><a href="https://www.google.com/maps/search/?api=1&query=Farm+Plate%2C+4PH8%2BV94%2C+Daraga%2C+Albay%2C+Philippines&query_place_id=ChIJg-YVro0DoTMRICJ1SNsXvW4">Farm Plate</a>, Gabawan, Daraga, Albay</span>
+                    <h2 class="section-heading">Food, Culture & Cowboy Vibes</h2>
+                    <p class="indented">FarmPlate doesn’t just focus on fun—it’s a tribute to Bicolano culture and food, too. From local produce to hearty meals, every detail is designed to honor the flavors and traditions of the region. The cowboy-inspired decor adds a unique twist that sets it apart from other farm destinations. It’s this fusion of rural charm and contemporary comfort that makes FarmPlate a modern wonder of Daraga.</p>
+                    <h2 class="section-heading">Planning Your Visit!</h2>
+                    <blockquote>
+                        Location: Farm Plate, Gabawan, Daraga, Albay
+                        Transport: Either at least PHP 50 tricycle ride or via private vehicle,  from Daraga town proper
+                        Entrance Fee: PHP 150 per head
+                        Best Time to Visit: Late afternoon to evening for full light display
+                    </blockquote>
+                    <h2 class="section-heading">Why You Should Go!</h2>
+                    <p class="indented">FarmPlate is more than a photo-op spot—it’s a retreat, a community hub, a family park, and a cultural showcase rolled into one. Whether you’re into adventure, music, relaxation, or local food, there’s something here for you. So if you’re planning a trip to Albay, don’t just stop at the ruins. Head a little farther into the hills and let FarmPlate show you what modern Daraga is all about: resilient, rooted, and ready to welcome you with open arms and open skies.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <main class="mb-4">
+            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto"> <!-- Added mx-auto to center the column -->
+                <hr class="my-4" />
+                <h3 class="section-heading text-center mb-4">Other Posts</h3>
+            </div> <!-- text-center only on heading -->
+
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="blog-container">
+                            <!-- Blog Post 1 -->
+                            <div class="blog-post">
+                                <div class="blog-thumbnail">
+                                    <img src="/static/images/mayon.jpg" alt="Mayon">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title">
+                                        <a href="/contents/mayon.html">Mount Mayon</a>
+                                    </h3>
+                                    <div class="blog-meta">Daraga, Albay</div>
+                                    <p class="blog-description">Mayon Volcano, located in the province of
+                                        Albay in the Bicol Region
+                                        of the Philippines, is renowned for its near-perfect symmetrical
+                                        cone shape.
+                                        Standing at 2,463 meters (8,081 feet), it is one of the most active
+                                        volcanoes in the country and a prominent symbol of natural beauty
+                                        and danger.
+                                        Its frequent eruptions have shaped both the landscape and the lives
+                                        of the people living around it,
+                                        making it a vital part of Bicolano culture and identity.</p>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <div class="blog-thumbnail">
+                                    <a href="/contents/daraga_church.html"><img
+                                            src="/static/images/daraga-church-poster.png" alt="Daraga Church"></a>
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title">
+                                        <a href="/contents/daraga_church.html">Daraga Church</a>
+                                    </h3>
+                                    <div class="blog-meta">Sta. Maria Street, Daraga, Albay</div>
+                                    <p class="blog-description">One of the few of Albay’s heritage churches
+                                        that withstood the effects of Mayon volcano’s eruptions is the
+                                        Daraga Church or also known as Nuestra Señora de la Porteria Parish
+                                        Church. Perched on a hill with a
+                                        commanding view of the majestic Mayon Volcano, Daraga Church stands
+                                        as a lasting testament of faith,
+                                        artistry, and resilience of Albayanos.</p>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <div class="blog-thumbnail">
+                                    <img src="/static/images/c-ruins.PNG" alt="Luggage">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title">
+                                        <a href="/contents/church-ruins.html">Budiao Church Ruins</a>
+                                    </h3>
+                                    <div class="blog-meta">Daraga, Albay</div>
+                                    <p class="blog-description">The first settlers of the town of Daraga
+                                        came from a place called Budiao. Under the leadership
+                                        of Juan Salcedo, the Spaniards arrived and established this village.
+                                        The name "Budiao" is
+                                        derived from the word "badjao," which means "the greatest," as
+                                        demonstrated by the "ilustrados"
+                                        (educated elite) among the spectators of bullfights. In Budiao,
+                                        there was a designated area for
+                                        the battle between men and bulls, following a tradition reminiscent
+                                        of ancient Rome.</p>
+                                </div>
+                            </div>
+
+                            <div class="blog-post">
+                                <div class="blog-thumbnail">
+                                    <img src="/static/images/cagsawa-ruins.JPG" alt="Luggage">
+                                </div>
+                                <div class="blog-info">
+                                    <h3 class="blog-title">
+                                        <a href="/contents/cagsawa.html">Cagsawa Ruins</a>
+                                    </h3>
+                                    <div class="blog-meta">Barangay Busay, Daraga, Albay</div>
+                                    <p class="blog-description">The Cagsawa Ruins (also spelled as Kagsawa,
+                                        historically spelled as Cagsaua) are the remnants of a 16th-century
+                                        Franciscan church, the Cagsawa church. It was originally built in
+                                        the town of Cagsawa in 1587 but was burned down and destroyed by
+                                        Dutch pirates in 1636. It was rebuilt in 1724 by Fr. Francisco
+                                        Blanco but was destroyed again, along with the town of Cagsawa, on
+                                        February 1, 1814, during the eruption of Mayon Volcano.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </article>
+
+    <footer class="border-top">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <svg class="svg-inline--fa fa-circle fa-stack-2x" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="circle" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z">
+                                        </path>
+                                    </svg><!-- <i class="fas fa-circle fa-stack-2x"></i> Font Awesome fontawesome.com -->
+                                    <svg class="svg-inline--fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"
+                                        focusable="false" data-prefix="fab" data-icon="twitter" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                        </path>
+                                    </svg><!-- <i class="fab fa-twitter fa-stack-1x fa-inverse"></i> Font Awesome fontawesome.com -->
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <svg class="svg-inline--fa fa-circle fa-stack-2x" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="circle" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z">
+                                        </path>
+                                    </svg><!-- <i class="fas fa-circle fa-stack-2x"></i> Font Awesome fontawesome.com -->
+                                    <svg class="svg-inline--fa fa-facebook-f fa-stack-1x fa-inverse" aria-hidden="true"
+                                        focusable="false" data-prefix="fab" data-icon="facebook-f" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                        </path>
+                                    </svg><!-- <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i> Font Awesome fontawesome.com -->
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <svg class="svg-inline--fa fa-circle fa-stack-2x" aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="circle" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z">
+                                        </path>
+                                    </svg><!-- <i class="fas fa-circle fa-stack-2x"></i> Font Awesome fontawesome.com -->
+                                    <svg class="svg-inline--fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"
+                                        focusable="false" data-prefix="fab" data-icon="github" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                        </path>
+                                    </svg><!-- <i class="fab fa-github fa-stack-1x fa-inverse"></i> Font Awesome fontawesome.com -->
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="small text-center text-muted fst-italic">Copyright © 5 Wonders of Daraga 2025</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/global.js"></script>
+</body>
+
+</html>
